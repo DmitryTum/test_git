@@ -25,3 +25,5 @@ urlpatterns = [
     path('hello/', hello, name='hello'),
     path('', home),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
