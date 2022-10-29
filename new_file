@@ -1,4 +1,4 @@
 def some_new_func(a, b):
   return a - b
-  
-  print(sone_new_func(5, 2))
+
+print(sone_new_func(5, 2))
