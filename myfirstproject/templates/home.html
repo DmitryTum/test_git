@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home page</title>
+</head>
+
+{{ hello }}
+
+<body>
+
+    <form action="{% url 'hello' %}">
+        <textarea name="message" cols="30" rows="10">The cat was playing in the garden.</textarea>
+        <br><br>
+        <input type="submit">
+    </form>
+
+</body>
+</html>
